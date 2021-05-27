@@ -1,0 +1,45 @@
+
+body{
+    background-color: black;
+    font-family: "Glyphs", Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.cartao{
+    background: url(Milhões\ de\ Imagens\ PNG\,\ Fundos\ e\ Vetores\ Para\ Download\ Gratuito\ _\ Pngtree.jpg) no-repeat;
+    height: 200px;
+    width: 400px;
+    background-size: cover;
+   
+}
+.titulo{
+  padding-top: 20px;
+  margin-left: 15px;
+  margin-top: 10px;  
+}
+.caixa{
+      padding-left: 20px; 
+      font-size: 20px;
+      line-height: 10px;
+      
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color: white;
+}
+.favicon1{
+    width: 30px;
+    
+}
+.favicon2{
+    width: 30px;
+    
+}
+.favicon3{
+    width: 30px;
+    
+}
