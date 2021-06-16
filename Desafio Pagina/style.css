@@ -1,0 +1,26 @@
+header{
+    background-color: aqua;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 1vh;
+}
+main{
+    background: url(img/people.jpg);
+    overflow: auto;
+    background-size: cover;
+}
+#box{
+    background-color: rgba(209, 209, 209, 0.5);
+    width: 15rem;
+    float: right;
+    margin: 1rem;
+    padding: 10px;
+    
+    
+}
+h1, h2{
+    
+    
+}
