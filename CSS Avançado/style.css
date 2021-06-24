@@ -1,0 +1,38 @@
+h1::first-letter{
+color: red;
+font-size: 5rem;
+}
+p::first-line{
+color: red;
+
+}
+
+li{
+    list-style: none;
+    /* list-style-image: url(); */
+
+}
+
+li::before{
+    content: " ";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ }
+
+ p::selection{
+     background-color: yellow;
+     color: red;
+ }
+ *{
+     background-color: blueviolet;
+ }
+
+ ul, h1{
+     color: chartreuse;
+
+ }
