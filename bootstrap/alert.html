@@ -16,26 +16,29 @@
     <title>Bootstrap</title>
 
     <style>
-        .hide{
+        .hide {
             display: none;
         }
     </style>
 </head>
 
 <body>
-    
-    <div class="alert alert-danger hide">
-      <strong>alerta</strong>
-    </div>
+    <input type="email">
+    <button onclick="enviar()">Cadastrar</button>
 
+    <div id="erro" class="alert alert-danger hide alert-dismissible">
+        <button class="btn-close" data-bs-dismiss="alert">&times;</button>
+        <strong>Erro: </strong>O campo não deve estar vazio
+    </div>
     <script>
         function enviar(){
             if ($("input")[0].value == ""){
-                $( ) 
+                $("#erro").removeClass("hide")
+                console.log("click")
             }
         }
-        
     </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </body>
 
-</html>  
+</html> 
